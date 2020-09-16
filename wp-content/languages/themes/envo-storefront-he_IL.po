@@ -1,0 +1,363 @@
+# Translation of Themes - Envo Storefront in Hebrew
+# This file is distributed under the same license as the Themes - Envo Storefront package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-03 13:05:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: he_IL\n"
+"Project-Id-Version: Themes - Envo Storefront\n"
+
+#. Description of the theme
+msgid "Envo Storefront is a fast, clean and modern-looking responsive free WooCommerce theme for WordPress. This theme supports popular page builders like Elementor, KingComposer, Beaver Builder, SiteOrigin, Thrive Architect, Divi, Brizy, Visual Composer, etc. The theme is responsive, super fast, SEO friendly, WPML and RTL ready. Documentation: https://envothemes.com/docs/docs/envo-storefront/ Theme demo ready to import: https://envothemes.com/envo-storefront/"
+msgstr "Envo Storefront הינה תבנית ווקומרס מהיר, נקיה ומודרנית למראה, בוורדפרס. תבנית זו תומכת בפייג' בילדרים פופולריים כמו Elementor, KingComposer, Beaver Builder, SiteOrigin, Architect Thrive, Divi, Brizy, Visual Composer וכדומה. התבנית מהירה במיוחד, ידידותי למנועי חיפוש, תומכת ב-WPML וב-RTL באופן מובנה. תיעוד: https://envothemes.com/docs/docs/envo-storefront/ הדגמת תבנית מוכנה לייבוא: https://envothemes.com/envo-storefront/"
+
+#. Theme Name of the theme
+msgid "Envo Storefront"
+msgstr "Envo Storefront"
+
+#: lib/customizer/info.php:147
+msgid "View PRO version"
+msgstr "הצג גרסת PRO"
+
+#: lib/customizer/info.php:145
+msgid "PRO version"
+msgstr "גרסת PRO"
+
+#. translators: %s: "documentation" string
+#: lib/customizer/info.php:30
+msgid "For step-by-step videos and text tutorials, see %1$s"
+msgstr "מדריכים וסרטוני וידאו המלמדים שלב אחר שלב, ראה %1$s"
+
+#. translators: %s: "demos here" string
+#: lib/customizer/info.php:26
+msgid "demos"
+msgstr "הדגמות"
+
+#. translators: %s: "demos here" string
+#: lib/customizer/info.php:26
+msgid "You can use this theme to create a website like these %1$s"
+msgstr "ניתן להשתמש בתבנית זו כדי ליצור אתר כמו %1$s"
+
+#: lib/customizer/info.php:11
+msgid "Video Documentation & Demo"
+msgstr "תיעוד והדגמת וידאו"
+
+#: lib/wp_bootstrap_navwalker.php:362
+msgid "Add a menu"
+msgstr "הוספת תפריט"
+
+#: lib/woocommerce.php:61
+msgid "My Account"
+msgstr "החשבון שלי"
+
+#: lib/woocommerce.php:7
+msgid "View your shopping cart"
+msgstr "הצג את עגלת הקניות"
+
+#. translators: %1$s "documentation" string and link
+#. translators: %s: "documentation" string
+#. translators: %s: "Click here" string
+#: lib/dashboard.php:466 lib/customizer/info.php:30 lib/customizer/demo.php:27
+msgid "documentation"
+msgstr "תיעוד"
+
+#. translators: %1$s "documentation" string and link
+#. translators: %s: "Click here" string
+#: lib/dashboard.php:466 lib/customizer/demo.php:27
+msgid "You can import the demo content with just one click. For step-by-step video tutorial, see %1$s"
+msgstr "ניתן לייבא תוכן להדגמה בלחיצת כפתור אחת. לקבלת הדרכת וידאו שלב אחר שלב, ראה %1$s"
+
+#: lib/dashboard.php:448
+msgid "Hooray! There are no required actions for you right now."
+msgstr "הידד! אין כרגע פעולות נדרשות עבורך."
+
+#: lib/dashboard.php:439
+msgid "Recommended plugins"
+msgstr "תוספים מומלצים"
+
+#: lib/dashboard.php:414
+msgid "Contact us"
+msgstr "צרו קשר"
+
+#: lib/dashboard.php:412
+msgid "Having trouble? Need support?"
+msgstr "נתקל בבעיה? צריך תמיכה?"
+
+#. translators: %s theme name
+#: lib/dashboard.php:406
+msgid "%s Documentation"
+msgstr "תיעוד %s"
+
+#. translators: %s theme name
+#: lib/dashboard.php:399
+msgid "Need help in setting up and configuring %s? Please take a look at our documentation page."
+msgstr "זקוק לעזרה בהגדרת התצורה של %s? עיין בתיעוד שלנו."
+
+#: lib/dashboard.php:395
+msgid "Theme documentation"
+msgstr "תיעוד תבנית"
+
+#: lib/dashboard.php:391
+msgid "Start customizing"
+msgstr "התחל להתאים"
+
+#. translators: %s theme name
+#: lib/dashboard.php:387
+msgid "%s supports the Theme Customizer for all theme settings. Click \"Customize\" to personalize your site."
+msgstr "%s תומך בהתאמה אישית של התבנית עבור כל הגדרות העיצוב. ניתן ללחוץ על \"התאמה אישית\" כדי לשנות את מראה האתר."
+
+#: lib/dashboard.php:383
+msgid "Theme Customizer"
+msgstr "התאמת תבנית"
+
+#: lib/dashboard.php:321 lib/dashboard.php:323 lib/customizer/demo.php:15
+msgid "One Click Demo Import"
+msgstr "ייבוא ​​הדגמה בלחיצה אחת"
+
+#: lib/dashboard.php:302
+msgid "Recommended Actions"
+msgstr "פעולות מומלצות"
+
+#: lib/dashboard.php:255
+msgid "Details"
+msgstr "פרטים"
+
+#: lib/dashboard.php:234
+msgid "Activate"
+msgstr "הפעלה"
+
+#: lib/dashboard.php:215
+msgid "Install Now"
+msgstr "התקן עכשיו"
+
+#: lib/dashboard.php:172 lib/dashboard.php:176 lib/dashboard.php:457
+#: lib/customizer/demo.php:42 lib/customizer/demo.php:44
+msgid "Import demo data"
+msgstr "ייבא נתוני הדגמה"
+
+#. translators: %s theme name
+#: lib/dashboard.php:162
+msgid "Get started with %s"
+msgstr "התחל לעבור עם %s"
+
+#. translators: %1$s: theme name, %2$s link
+#: lib/dashboard.php:154
+msgid "Welcome! Thank you for choosing %1$s! To fully take advantage of the best our theme can offer please make sure you visit our <a href=\"%2$s\">Welcome page</a>"
+msgstr "ברוך הבא! תודה שבחרת %1$s! כדי לנצל באופן מלא את הטוב ביותר שהתבנית יכולה להציע יש לוודא שאתה מבקר ב<a href=\"%2$s\">עמוד ברוכים הבאים</a>"
+
+#. translators: %1$s: theme name, %2$s theme version
+#. translators: %1$s theme name, %2$s theme version
+#: lib/dashboard.php:147 lib/dashboard.php:366
+msgid "Welcome to %1$s - Version %2$s"
+msgstr "ברוכים הבאים אל %1$s - גרסה %2$s"
+
+#: lib/dashboard.php:126
+msgid "Envo Storefront dashboard"
+msgstr "לוח בקרה Envo Storefront"
+
+#: lib/dashboard.php:123
+msgid "Envo Storefront theme"
+msgstr "תבנית Envo Storefront"
+
+#. translators: %s: replaced with number (counter)
+#: lib/dashboard.php:121
+msgid "Envo Storefront theme %s"
+msgstr "תבנית Envo Storefront %s"
+
+#. translators: %1$s: replaced with number (counter)
+#: lib/dashboard.php:118
+msgid "%1$s action required"
+msgid_plural "%1$s actions required"
+msgstr[0] "נדרשת פעולה %1$s"
+msgstr[1] "נדרשות %1$s פעולות"
+
+#: comments.php:46
+msgid "Comments are closed."
+msgstr "סגור לתגובות."
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:22
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "מחשבה %1$s על &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s מחשבות על &ldquo;%2$s&rdquo;"
+
+#. translators: %s: post title
+#: comments.php:19
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "מחשבה אחת על &ldquo;%s&rdquo;"
+
+#: content-none.php:19
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "נראה שלא ניתן למצוא את מה שאתם מחפש. אולי חיפוש יכול לעזור."
+
+#: content-none.php:14
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "סליחה, אך דבר לא תאם למונחי החיפוש שלך. נא לנסות שוב באמצעות מילות מפתח אחרות."
+
+#. translators: %1$s: link to admin area
+#: content-none.php:8
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "מוכנים לפרסם את הפוסט הראשון? <a href=\"%1$s\">התחילו כאן</a>."
+
+#: content-none.php:2
+msgid "Nothing Found"
+msgstr "שום דבר לא נמצא"
+
+#: template-parts/template-part-topnav.php:79
+msgid "Menu"
+msgstr "תפריט"
+
+#: template-parts/template-part-topnav.php:41
+msgid "All Categories"
+msgstr "כל הקטגוריות"
+
+#: template-parts/template-part-topnav.php:39
+msgid "Search products..."
+msgstr "חיפוש מוצרים..."
+
+#: template-parts/template-part-postauthor.php:4
+msgid "About The Author"
+msgstr "אודות המחבר"
+
+#. Template Name of the theme
+msgid "Page Builders"
+msgstr "פייג' בילדרים"
+
+#: 404.php:10
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "לא נמצא דבר במיקום זה. אפשר לנסות את החיפוש."
+
+#: 404.php:8
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "אופס! לא ניתן למצוא את העמוד הזה."
+
+#. translators: %s: search result string
+#: search.php:13
+msgid "Search Results for: %s"
+msgstr "תוצאות חיפוש עבור: %s"
+
+#: functions.php:559
+msgid "Skip to the content"
+msgstr "לדלג לתוכן"
+
+#: functions.php:527
+msgid "By"
+msgstr "מאת"
+
+#: functions.php:512
+msgid "Next"
+msgstr "הבא"
+
+#: functions.php:512
+msgid "Next Post"
+msgstr "הפוסט הבא"
+
+#: functions.php:511
+msgid "Previous"
+msgstr "קודם"
+
+#: functions.php:511
+msgid "Previous Post"
+msgstr "הפוסט הקודם"
+
+#: functions.php:441
+msgid "Comment on "
+msgstr "תגובה על "
+
+#: functions.php:438
+msgid "Off"
+msgstr "כבוי"
+
+#. translators: %1$s: Envo Storefront theme name (do not translate) with
+#. envothemes.com URL
+#: functions.php:404
+msgctxt "Theme name, do not translate"
+msgid "Envo Storefront"
+msgstr "Envo Storefront"
+
+#. translators: %1$s: Envo Storefront theme name (do not translate) with
+#. envothemes.com URL
+#: functions.php:404
+msgid "Theme: %1$s"
+msgstr "תבנית: %1$s"
+
+#. translators: %s: WordPress name with wordpress.org URL
+#: functions.php:399
+msgid "WordPress"
+msgstr "וורדפרס"
+
+#. translators: %s: WordPress name with wordpress.org URL
+#: functions.php:399
+msgid "https://wordpress.org/"
+msgstr "https://he.wordpress.org/"
+
+#. translators: %s: WordPress name with wordpress.org URL
+#: functions.php:399
+msgid "Proudly powered by %s"
+msgstr "מופעל באמצעות %s"
+
+#: functions.php:375
+msgid "Tags"
+msgstr "תגיות"
+
+#: functions.php:371
+msgid "Category"
+msgstr "קטגוריה"
+
+#: functions.php:327
+msgid "Footer Section"
+msgstr "אזור פוטר"
+
+#: functions.php:317
+msgid "Header Section"
+msgstr "אזור הדר"
+
+#: functions.php:307
+msgid "Top Bar Section"
+msgstr "אזור תפריט עליון"
+
+#: functions.php:297
+msgid "Sidebar"
+msgstr "סרגל צדדי"
+
+#: functions.php:194
+msgctxt "Open Sans Condensed font: on or off"
+msgid "on"
+msgstr "off"
+
+#. translators: %s plugin name string
+#: functions.php:95
+msgid "The most advanced frontend drag & drop page builder."
+msgstr "הפייג' בילדר המתקדם ביותר."
+
+#. translators: %s plugin name string
+#: functions.php:89
+msgid "To enable shop features, please install and activate the %s plugin."
+msgstr "כדי לאפשר תכונות של חנות, יש להתקין ולהפעיל את התוסף %s."
+
+#: functions.php:83 lib/dashboard.php:169
+msgid "Save time by importing our demo data: your website will be set up and ready to be customized in minutes."
+msgstr "חיסכו זמן על ידי ייבוא ​​נתוני ההדגמה שלנו: אתר האינטרנט שלך יוקם ויהיה מוכן להתאמה תוך דקות."
+
+#: functions.php:25
+msgid "Main Menu"
+msgstr "תפריט ראשי"
+
+#. Author URI of the theme
+msgid "https://envothemes.com/"
+msgstr "https://envothemes.com/"
+
+#. Author of the theme
+msgid "EnvoThemes"
+msgstr "EnvoThemes"
+
+#. Theme URI of the theme
+msgid "https://envothemes.com/free-envo-storefront/"
+msgstr "https://envothemes.com/free-envo-storefront/"
