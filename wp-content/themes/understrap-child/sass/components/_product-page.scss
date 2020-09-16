@@ -1,0 +1,29 @@
+.product-page {
+  margin-top: 5rem;
+
+  .add-to-cart-product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    direction: rtl;
+    margin-top: 5%;
+  }
+
+  //.variations_form {
+  //  display: flex;
+  //  flex-wrap: wrap;
+  //  text-align: right;
+  //}
+
+  //.variations {
+  //  text-align: right;
+  //  display: flex;
+  //  flex-wrap: wrap;
+  //  label {
+  //    margin-left: 2%;
+  //    line-height: 33px;
+  //    font-size: 23px;
+  //    text-decoration: underline;
+  //  }
+  //}
+}

@@ -1,0 +1,67 @@
+.call-to-action {
+  background-color: #f8f7f7;
+
+  .img-holder {
+    background-image: url("../img/call-to-action.jpg");
+    background-color: rgba(255, 255, 255, 0);
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-right: 30px;
+    padding-bottom: 180px;
+    padding-left: 30px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    .elements-wrap {
+      margin-right: 120px;
+
+      .btn-custom {
+        color: white;
+        background-color: #0FA4AA;
+        padding: 17px 40px;
+        line-height: 21px;
+        font-size: 18px;
+
+        &:hover {
+          background-color: white;
+          color: #0FA4AA;
+        }
+      }
+    }
+
+    .title {
+      font-size: 5em;
+    }
+
+    .title-orange {
+      color: #F36F21;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .call-to-action {
+    .img-holder {
+      .title {
+        font-size: 4em;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .call-to-action {
+    .img-holder {
+      .title {
+        font-size: 3em;
+      }
+
+      .elements-wrap {
+        margin: 0;
+      }
+    }
+  }
+}

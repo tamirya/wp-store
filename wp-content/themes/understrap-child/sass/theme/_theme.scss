@@ -1,0 +1,182 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+body {
+  direction: ltr;
+}
+
+.list-categories {
+  #heading {
+    background-color: #f8f6f7;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 7px 14px;
+    text-align: right;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+  }
+  ul {
+    li {
+      list-style-type: none;
+
+      a {
+        text-decoration: none;
+        color: #000;
+        font-size: 1.2rem;
+
+        &.active {
+          color: #1692b3;
+        }
+
+        &:hover {
+          color: #1692b3;
+        }
+      }
+
+      .category-title {
+        text-align: right;
+      }
+    }
+  }
+}
+
+a.add_to_cart_button {
+  border: 2px solid #f36f21;
+  font-size: 17px;
+  margin: 0 auto;
+  padding: 12px 20px;
+
+  &:hover {
+    color: #fff !important;
+    background-color: #f36f21;
+    border: 2px solid transparent;
+  }
+}
+
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+
+.woocommerce-product-gallery__wrapper {
+  border: 1px solid #d2d2d2 !important;
+}
+
+figure {
+  height: 68vh !important;
+}
+
+.woocommerce-product-gallery--with-images {
+  //width: 80%;
+}
+
+//
+.woocommerce span.onsale {
+  //display: none !important;
+  //  top: 8%;
+  //  right: 26%;
+  //  direction: rtl;
+  backface-visibility: hidden;
+  background-color: rgb(22, 146, 179);
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  direction: rtl;
+  display: block;
+  font-family: Rubik, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 400;
+  height: 48.8px;
+  left: 15px;
+  letter-spacing: normal;
+  line-height: 49px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  padding-bottom: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 0px;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  text-size-adjust: 100%;
+  top: 0;
+  width: 49.4px;
+  z-index: 98;
+}
+
+ins {
+  bdi {
+    color: #1692b3;
+  }
+}
+
+.quantity input::-webkit-outer-spin-button,
+.quantity input::-webkit-inner-spin-button {
+  display: none;
+  margin: 0;
+}
+
+.quantity input.qty {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+}
+
+.woocommerce-message {
+  text-align: right;
+  direction: rtl;
+  //width: 90%;
+}
+
+.woocommerce-notices-wrapper {
+  //display: flex;
+  //flex-wrap: wrap;
+  //justify-content: end;
+}
+
+.woocommerce_dropdown_variation {
+  direction: rtl;
+}
+
+.woocommerce-variation {
+  &.single_variation {
+    float: left;
+    font-size: 1.3em;
+    text-align: center;
+  }
+}
+
+.quantity {
+  float: right;
+}
+
+.woocommerce-variation-add-to-cart {
+  margin-top: 10%;
+}
+
+.checkout {
+  direction: rtl;
+}
+
+.entry-content {
+  text-align: right;
+  direction: rtl;
+}
+
+.woocommerce button[name="update_cart"],
+.woocommerce input[name="update_cart"] {
+  display: none;
+}

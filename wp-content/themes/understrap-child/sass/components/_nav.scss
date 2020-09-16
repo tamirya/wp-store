@@ -1,0 +1,296 @@
+#navbar {
+  background-color: $navBackgroundColor;
+  color: white;
+  height: 128px;
+  transition: 0.4s;
+
+  #logo-mobile {
+    display: none;
+  }
+
+  .navbar-brand {
+    margin-left: 100px;
+
+  }
+
+  .navbar-toggler {
+    color: #fff !important;
+    border: none !important;;
+    outline: none !important;;
+  }
+
+  .navbar-nav {
+    padding-right: 100px;
+  }
+
+  .navbar-collapse {
+    direction: rtl;
+  }
+
+  #navbarCollapse {
+
+    .products-link {
+      .icon {
+        font-weight: normal;
+      }
+    }
+
+    .products-link-li {
+      position: relative;
+
+      &:hover {
+        #products-items {
+          display: block;
+        }
+      }
+    }
+
+    #products-items {
+      display: none;
+      width: 900px;
+      height: auto;
+      position: absolute;
+      top: 128px;
+      z-index: 2;
+      background-color: #f8f7f7;
+
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5px;
+
+        li {
+          cursor: pointer;
+          width: 142px;
+          height: 211px;
+          margin-left: 4px;
+          margin-bottom: 10px;
+
+          a {
+            .products-item-title {
+              color: black;
+            }
+          }
+        }
+      }
+    }
+
+    ul {
+      li {
+        height: 128px;
+        display: flex;
+        align-items: center;
+
+        a {
+          border: none;
+          position: relative;
+          color: #fff;
+          font-size: 15px;
+
+          &.gift-card-btn {
+            background: #f78429;
+            padding: 10px;
+            font-weight: bold;
+          }
+
+          &.active {
+            border: none;
+
+            &:after {
+              width: 100%;
+              left: 0;
+              content: '';
+              position: absolute;
+              height: 5px;
+              bottom: 0;
+              background-color: white;
+              transition: all ease-in-out .2s;
+            }
+          }
+
+          &.hover-anim {
+            &:hover {
+              border: none;
+            }
+
+            &:hover:after {
+              width: 100%;
+              left: 0;
+            }
+
+            &:after {
+              content: '';
+              position: absolute;
+              width: 0;
+              height: 5px;
+              left: 50%;
+              bottom: 0;
+              background-color: white;
+              transition: all ease-in-out .2s;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .icon-mobile {
+    display: none;
+  }
+
+  #cart-items-count {
+    #cart-number {
+      border: 1px solid;
+      padding: 2px;
+      border-radius: 50px;
+      width: 29px;
+      display: inline-block;
+      text-align: center;
+      background-color: #fff;
+      color: #0fa4aa;
+    }
+  }
+}
+
+#navbarCollapseMobile {
+  ul {
+    li {
+      line-height: 32px;
+      background-color: #f9f9f9;
+
+      a {
+        color: #000;
+        height: 50px;
+        border: 1px solid #dadada;
+
+        &.gift-card-btn {
+          background: #f78429;
+          padding: 10px;
+          font-weight: bold;
+          color: #fff;
+        }
+      }
+
+      &.products-link-li {
+        a {
+          div.title {
+            font-size: 1em;
+            position: relative;
+
+            i {
+              font-size: 23px;
+              left: 20px;
+              top: 7px;
+              position: absolute;
+            }
+          }
+        }
+
+        #sub-menu {
+          #sub-menu-categories {
+            li {
+              a {
+                color: #000;
+                height: 50px;
+                border: 1px solid #dadada;
+                direction: rtl;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#nav-holder {
+  height: 128px;
+}
+
+.fade-in {
+  animation: fadeIn ease .5s;
+  -webkit-animation: fadeIn ease .5s;
+  -moz-animation: fadeIn ease .5s;
+  -o-animation: fadeIn ease .5s;
+  -ms-animation: fadeIn ease .5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+
+  #navbar {
+    height: 70px;
+    background-color: rgb(20, 153, 176);
+
+    .right-side-menu-mobile {
+      div.row {
+        div.col {
+          font-size: 20px;
+        }
+      }
+    }
+
+    .icon-mobile {
+      display: block;
+    }
+
+    #logo-desktop {
+      display: none;
+    }
+
+    .navbar-brand {
+      margin: 0;
+    }
+
+    #logo-mobile {
+      display: block;
+      width: 175px;
+      margin-left: 20px;
+    }
+  }
+}
